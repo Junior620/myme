@@ -1,0 +1,547 @@
+.material-symbolsarrow-downwar-icon,
+.material-symbolsarrow-downwar-icon1 {
+  position: absolute;
+  top: 960px;
+  left: 30px;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+.material-symbolsarrow-downwar-icon1 {
+  left: 0;
+}
+.contact-child,
+.contact-inner,
+.contact-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.contact-child {
+  border-radius: 0 0 500px 0;
+  width: 1903px;
+  height: 939px;
+  display: none;
+}
+.contact-inner,
+.contact-item {
+  height: 17.43%;
+  width: 100%;
+  right: 0;
+  bottom: 82.57%;
+  border-radius: 0 0 8px 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.contact-inner {
+  height: 3.77%;
+  width: 10.82%;
+  top: 1.44%;
+  right: 87.52%;
+  bottom: 94.78%;
+  left: 1.65%;
+  border-radius: 50%;
+}
+.footer-child,
+.wave-1-1 {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  width: 1571px;
+  height: 893px;
+}
+.wave-1-1 {
+  top: 0;
+  height: 840px;
+  overflow: hidden;
+}
+.footer-item {
+  position: absolute;
+  top: 467px;
+  left: 32px;
+  border-radius: 50%;
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+}
+.a-propos-de,
+.services {
+  position: absolute;
+  top: 53px;
+  left: 601px;
+  font-size: var(--font-size-21xl);
+  text-decoration: underline;
+  font-family: var(--font-akshar);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 240px;
+  height: 60px;
+}
+.a-propos-de {
+  top: 35px;
+  left: 94px;
+  width: 287px;
+  height: 94px;
+}
+.dveloppement-web-et {
+  top: 113px;
+  left: 580px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  width: 340px;
+  height: 56px;
+  cursor: pointer;
+}
+.administration-systemes,
+.dveloppement-web-et,
+.rseaux-informatiques {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.rseaux-informatiques {
+  top: 169px;
+  left: 580px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  width: 340px;
+  height: 56px;
+}
+.administration-systemes {
+  top: 225px;
+}
+.administration-systemes,
+.hbergement-web,
+.marketing-digitale {
+  left: 580px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  width: 340px;
+  height: 56px;
+}
+.hbergement-web {
+  position: absolute;
+  top: 281px;
+  display: flex;
+  align-items: center;
+}
+.marketing-digitale {
+  top: 337px;
+  cursor: pointer;
+}
+.conseils-et-formations,
+.fulife-consulting-sarl,
+.marketing-digitale {
+  position: absolute;
+  display: flex;
+  align-items: center;
+}
+.conseils-et-formations {
+  top: 393px;
+  left: 580px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  width: 340px;
+  height: 56px;
+}
+.fulife-consulting-sarl {
+  top: 25px;
+  left: 66px;
+  font-size: 30px;
+  font-family: var(--font-akshar);
+  width: 432px;
+  height: 535px;
+}
+.footer-inner {
+  position: absolute;
+  top: 777px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 1571px;
+  height: 115px;
+}
+.copyright-fulife {
+  position: absolute;
+  top: 807px;
+  left: 256px;
+  color: var(--color-black);
+  display: flex;
+  align-items: center;
+  width: 1057px;
+  height: 59px;
+}
+.addresse-rue-bebey,
+.email-infofulife-consulting,
+.phone-237-676 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  width: 468px;
+  height: 63px;
+  font-size: 20px;
+}
+.email-infofulife-consulting,
+.phone-237-676 {
+  top: 74px;
+}
+.email-infofulife-consulting {
+  top: 148px;
+}
+.addresse-child,
+.addresse-item {
+  position: absolute;
+  top: 222px;
+  left: 0;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.addresse-item {
+  top: 282px;
+}
+.addresse-child1,
+.addresse-child2,
+.addresse-child3,
+.addresse-inner,
+.ellipse-icon {
+  position: absolute;
+  top: 222px;
+  left: 195px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+.addresse-child1,
+.addresse-child2,
+.addresse-child3,
+.ellipse-icon {
+  left: 65px;
+}
+.addresse-child1,
+.addresse-child2,
+.addresse-child3 {
+  left: 260px;
+}
+.addresse-child2,
+.addresse-child3 {
+  left: 130px;
+}
+.addresse-child3 {
+  left: 325px;
+}
+.addresse {
+  position: absolute;
+  top: 107px;
+  left: 1039px;
+  width: 468px;
+  height: 332px;
+  font-size: var(--font-size-3xl);
+  color: var(--color-black);
+}
+.footer,
+.us-child {
+  position: absolute;
+  left: 0;
+}
+.footer {
+  top: 3612px;
+  width: 1571px;
+  height: 892px;
+  font-size: var(--font-size-xl);
+  color: var(--color-gray-100);
+  font-family: var(--font-inter);
+}
+.us-child {
+  height: 98.92%;
+  width: 99.56%;
+  top: 1.08%;
+  right: 0.44%;
+  bottom: 0;
+  background-color: rgba(209, 236, 245, 0.8);
+}
+.contactez-nous {
+  position: absolute;
+  height: 6.14%;
+  width: 18.93%;
+  top: 5.68%;
+  left: 6.87%;
+  font-size: var(--font-size-6xl);
+  display: flex;
+  font-family: var(--font-jost);
+  color: var(--color-black);
+  text-align: left;
+  align-items: center;
+}
+.us-item {
+  position: absolute;
+  height: 71.31%;
+  width: 43.86%;
+  top: 0;
+  right: 0;
+  bottom: 28.69%;
+  left: 56.14%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.nous-contactez-child {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: 20px;
+  background-color: #075c77;
+}
+.envoyez{
+  position: absolute;
+  height: 25.33%;
+  width: 70.09%;
+  top: 37.33%;
+  left: 17.13%;
+  font-size: var(--font-size-6xl);
+  display: flex;
+  font-family: var(--font-jost);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.nous-contactez {
+  position: absolute;
+  top: 537.34px;
+  left: 710px;
+  width: 321px;
+  height: 74.77px;
+}
+.frame-input,
+.us-inner {
+  border: 0;
+  background-color: #f2f9fc;
+  position: absolute;
+  top: 104.68px;
+  left: 78px;
+  width: 247px;
+  height: 53.83px;
+}
+.frame-input {
+  top: 186.43px;
+  left: 79px;
+  overflow: hidden;
+}
+.frame-child {
+  border: 0;
+  background-color: #f2f9fc;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.frame-div {
+  position: absolute;
+  top: 268.17px;
+  left: 76px;
+  width: 247px;
+  height: 53.83px;
+  overflow: hidden;
+}
+.rectangle-textarea {
+  border: 0;
+  background-color: #f6f9fb;
+  position: absolute;
+  height: 30.57%;
+  width: 39.61%;
+  top: 63.75%;
+  right: 53.72%;
+  bottom: 5.68%;
+  left: 6.66%;
+}
+.us {
+  position: absolute;
+  top: 1954px;
+  left: 196px;
+  width: 1141px;
+  height: 649px;
+}
+.a-propos,
+.acceuil {
+  position: absolute;
+  width: 15.29%;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+.a-propos {
+  width: 15.51%;
+  left: 20.13%;
+}
+.realisation {
+  width: 19.25%;
+  left: 63.37%;
+}
+.contact1,
+.realisation,
+.services1 {
+  position: absolute;
+  top: 0;
+  display: inline-block;
+}
+.contact1 {
+  width: 12.43%;
+  left: 87.57%;
+  font-family: var(--font-inter);
+}
+.services1 {
+  width: 99.8%;
+  left: 0;
+}
+.material-symbolsarrow-downwar {
+  position: absolute;
+  height: 52.63%;
+  width: 25.67%;
+  top: 47.37%;
+  right: 0;
+  bottom: 0;
+  left: 74.33%;
+  overflow: hidden;
+}
+.menu,
+.services-parent {
+  position: absolute;
+  top: 0;
+  left: 368.4px;
+  width: 163.6px;
+  height: 57px;
+}
+.menu {
+  top: 93px;
+  left: 510px;
+  width: 909px;
+  opacity: 0.84;
+  font-size: 20px;
+  font-weight: 100;
+  color: var(--color-white);
+  gap: 44px;
+  
+}
+.menu ,a{
+  text-decoration: none;
+  color: white;
+  
+}
+.menu ,a:hover{
+  text-decoration: underline;
+  color: #0896f5;
+  
+}
+.contact2,
+.contactez-notre-agence,
+.trouvez-la-solution {
+  position: absolute;
+  font-size: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.contact2 {
+  width: 45.89%;
+  top: 9.37%;
+  left: 28.01%;
+  font-weight: 600;
+  color: var(--color-white);
+}
+.contactez-notre-agence,
+.trouvez-la-solution {
+  top: 871px;
+  left: 325px;
+  width: 909px;
+  height: 130px;
+}
+.contactez-notre-agence {
+  top: 1047px;
+  left: 146px;
+  font-size: 37px;
+  font-family: var(--font-rubik);
+  color: rgba(0, 0, 0, 0.8);
+  width: 1240px;
+  height: 244px;
+}
+.blank-line {
+  margin: 0;
+  font-size: var(--font-size-31xl);
+}
+.nous-avons-une {
+  margin: 0;
+}
+.nous-contactez-nous-container {
+  position: absolute;
+  top: 1434px;
+  left: 146px;
+  display: inline-block;
+  width: 633px;
+  height: 423px;
+  font-size: var(--font-size-16xl);
+}
+.b,
+.b1,
+.thornridge-cir-syracuse {
+  position: absolute;
+  top: 1434px;
+  left: 875px;
+  display: inline-block;
+  width: 633px;
+  height: 80px;
+}
+.b1,
+.thornridge-cir-syracuse {
+  top: 1552px;
+}
+.thornridge-cir-syracuse {
+  top: 1714px;
+  height: 176px;
+}
+.contact,
+.rectangle-icon {
+  width: 100%;
+  overflow: hidden;
+}
+.rectangle-icon {
+  position: absolute;
+  height: 17.21%;
+  top: 60.37%;
+  right: 0;
+  bottom: 22.42%;
+  left: 0;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+.contact {
+  position: relative;
+  background-color: var(--color-white);
+  height: 4504px;
+  text-align: left;
+  font-size: var(--font-size-31xl);
+  color: var(--color-black);
+  font-family: var(--font-montserrat);
+}

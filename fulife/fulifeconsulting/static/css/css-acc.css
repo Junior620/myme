@@ -1,0 +1,130 @@
+{% load static %}
+.h-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999999;
+}
+
+
+.box-ab{
+    min-height:250px;
+    box-shadow: 1px 3px 15px 1px #3333337e;
+    border-radius: 25px;
+    transition:.3s ease
+
+}
+.box-ab:hover{
+    transform: translateY(-20px);
+}
+.box-ab1{
+    background: url("/static/public/index/devetmobile@3x.png");
+    background-size: cover;
+    background-position: center;
+
+}
+.box-ab2{
+    background-color: transparent;
+    background: url("/static/public/index/hebergement@3x.png");
+    background-size: cover;
+    background-position: center;
+}
+.box-ab3{
+    background-color: transparent;
+    background: url("/static/public/index/formation@3x.png");
+    background-size: cover;
+    background-position: center;
+}
+.box-ab4{
+    background-color: transparent;
+    background: url("/static/public/index/administration@3x.png");
+    background-size: cover;
+    background-position: center;
+}
+.box-ab5{
+    background-color: transparent;
+    background: url("/static/public/index/marketing@3x.png");
+    background-size: cover;
+    background-position: center;
+}
+.box-ab6{
+    background-color: transparent;
+    background: url("/static/public/index/reseaux@3x.png");
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+.box-ab a{
+    text-decoration: none;
+    color:black;
+    padding: 5px 7px;
+    background-color:rgb(40, 185, 252);
+    margin: 0 auto;
+    border-radius: 25px;
+    transition:.3s ease;
+}
+
+.box-ab a:hover{
+    transform: scale(1.1);
+}
+
+
+/* contact */
+.input{
+    margin-bottom: 10px;
+    border: solid 2px  rgb(71, 71, 71);
+    width: 100%;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+.input input {
+    width: calc(100% - 40px);
+    height: 40px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #525252;
+}
+.input input::placeholder , .input textarea::placeholder{
+    color: #525252;
+}
+
+.input textarea{
+    width: 100%;
+    height: 250px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: #525252;
+}
+
+.btn_color{
+    background: linear-gradient( 2deg , rgb(64, 216, 243), rgb(64, 133, 243));
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.442);
+    transition: .2s ease;
+}
+.btn_color:hover{
+    transform: scale(1.1);
+}
+
+
+.contact_r img{
+    max-width: 350px;
+}
+
+.car{
+    margin: 100px 0;
+}
+.car .card{
+    border:none;
+    box-shadow:1px 2px 15px 1px rgba(56, 56, 56, 0.308); 
+}
+
+.im1{
+    width:300px;
+    height: 300px;
+}

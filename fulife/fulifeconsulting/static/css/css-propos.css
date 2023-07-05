@@ -1,0 +1,136 @@
+.h-top{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 9999999;
+}
+
+[class^="section"]{
+    margin-top: 200px;
+}
+
+[class^="section"] h1{
+    color:rgb(40, 185, 252);
+}
+.vignet{
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 1px 10px 35px 1px rgba(0, 0, 0, 0.377);
+}
+
+.vignet-img img{
+    width: 150px;
+}
+
+.absolu{
+    position: absolute;
+    top: -150px;
+    left: 0;
+    right: 0;
+}
+
+@media screen and (max-width :989px){
+    .absolu{
+    position: relative;
+    height: auto;
+}
+
+}
+
+/* section 5 */
+.section_5 img{
+   width: 100%;
+}
+
+.section_7 img{
+    width: 100%;
+}
+
+.cercle-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 10px  rgb(40, 185, 252);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(40, 185, 252);
+}
+.cercle-1 , .cercle-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: dashed 10px  rgb(40, 185, 252);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: rgb(40, 185, 252);
+}
+
+.section_7 h2{
+    color:  rgb(40, 185, 252);
+}
+
+
+.section_8 img,.section_9 img{
+    width: 100%;
+}
+.card{
+    border: none;
+}
+
+.section_9 h1,.section_10 h1{
+    color:rgb(40, 185, 252);
+}
+.section_10 img{
+    width: 100%;
+}
+
+.section_10 .position-relative a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    background-color: rgb(40, 185, 252);
+    padding: 10px 15px;
+    border-radius: 7px;
+    transition: .2s ease;
+
+}
+
+.section_9 .position-relative a:hover{
+    transform: scale(1.1);
+}
+
+
+.section_9 a,.section_10 a,.section_11 a{
+    text-decoration: none;
+    color: white;
+   
+    background-color: rgb(40, 185, 252);
+    padding: 10px 15px;
+    border-radius: 7px;
+    transition: .2s ease;
+
+}
+
+/*.section_11{
+    background: url(./image/rectangle-144@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*/
+
+.section_11{
+    background: url("/static/public/rectangle-144@2x.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+

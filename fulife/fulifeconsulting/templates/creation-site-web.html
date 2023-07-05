@@ -1,0 +1,358 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>App Web Mobile</title>
+    <link rel="stylesheet" href="{% static 'css/css-creation_w_m.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/css-part.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/app_w_m.css' %}"/>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}"/>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}"/>
+
+ <!--
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css-creation_w_m.css">
+    <link rel="stylesheet" href="./assets/css-part.css">
+    <link rel="stylesheet" href="./assets/app_w_m.css">
+    -->
+
+
+</head>
+<body>
+
+    <section class="pre-h d-lg-flex d-none justify-content-between p-2 ">
+        <div class="d-flex">
+            <div style="margin-right: 10px;"><img src="{% static 'public/ellipse-80@2x.png' %}" alt="tel">237 695607089</div>
+            <div style="margin-right: 10px;"><img class="m-r-1" src="{% static 'public/ellipse-81@2x.png' %}" alt="mail"> info@fulife-consulting.cm</div>
+            <div style="margin-right: 10px;"><img class="m-r-1" src="{% static 'public/ellipse-82@2x.png' %}" alt=""> Ouverture : Lun-Sam : 8h30-19h30</div>
+
+       <!--
+            <div style="margin-right: 10px;"><img class="m-r-1" src="./assets/image/ellipse-80@2x.png" alt=""> (237) 695607089</div>
+            <div style="margin-right: 10px;"><img class="m-r-1" src="./assets/image/ellipse-81@2x.png" alt=""> info@fulife-consulting.cm</div>
+            <div style="margin-right: 10px;"><img class="m-r-1" src="./assets/image/ellipse-82@2x.png" alt=""> Ouverture : Lun-Sam : 8h30-19h30</div>
+            -->
+        </div>
+        <div class="d-flex">
+            <img class="m-1" src="{% static 'public/ellipse-12@2x.png' %}" alt="facebook">
+            <img class="m-1" src="{% static 'public/ellipse-13@2x.png' %}" alt="twitter">
+            <img class="m-1" src="{% static 'public/ellipse-14@2x.png' %}" alt="instagram">
+            <img class="m-1" src="{% static 'public/ellipse-15@2x.png' %}" alt="youtube">
+            <img  class="m-1" src="{% static 'public/ellipse-16@2x.png' %}" alt="linkln">
+            <img class="m-1" src="{% static 'public/ellipse-17@2x.png' %}" alt="whatsapp">
+            <img class="m-1" src="{% static 'public/ellipse-18@2x.png' %}" alt="chat">
+
+
+        <!--
+            <img class="m-1" src="./assets/image/ellipse-12@2x.png" alt="">
+            <img class="m-1" src="./assets/image/ellipse-13@2x.png" alt="">
+            <img class="m-1" src="./assets/image/ellipse-14@2x.png" alt="">
+            <img class="m-1" src="./assets/image/ellipse-15@2x.png" alt="">
+            <img  class="m-1" src="./assets/image/ellipse-16@2x.png" alt="">
+            <img class="m-1" src="./assets/image/ellipse-17@2x.png" alt="">
+            <img class="m-1" src="./assets/image/ellipse-18@2x.png" alt="">
+            -->
+        </div>
+    </section>
+
+    <section class="d-block " style="position: relative;">
+        <div class="h-top container">
+            <div class=" head row">
+                <div class="col-5 head-l">
+                    <a href="{% url 'acceuil' %}">
+                    <img src="{% static 'public/ellipse-11@2x.png' %}" class="img-fluid rounded-top" alt="logo">
+                    </a>
+                </div>
+                <div class="col-7 head-r d-flex justify-content-between align-items-center ">
+                    <div class="d-xl-none" ></div>
+                    <button class="btn btn-primary d-xl-none ml-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menus</button>
+                    <div class="menu d-xl-block d-none">
+                        <a class="link" href="{% url 'acceuil' %}">Accueil</a>
+                        <a class="link" href="{% url 'a-propos' %}">A propos</a>
+                        <a class="link" href="">Service</a>
+                        <a class="link" href="{% url 'realisation' %}">Realisation</a>
+                        <a class="link" href="{% url 'contact' %}">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img style="height: 70vh;" src="{% static 'public/slide/rectangle-120@2x.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="height: 70vh;" src="{% static 'public/slide/rectangle-146@2x.png' %}" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img style="height: 70vh;" src="{% static 'public/slide/rectangle-120@2x.png' %}" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+
+    <section class="position-relative" style="min-height: 250px;">
+        <div class=" container absolu_awm">
+            <div class="row">
+                <div class="col-md-4 p-xl-5 my-2">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-9 col-lg-8 col-md-10 ">
+                            <div class="reveal-t1 card box-ab box-ab1 d-flex flex-column justify-content-around  p-2">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="{% static 'public/ellipse-19@2x.png' %}" alt="">
+                                    </div>
+                                    <h5 class="my-3">Site Web E-commerce</h5>
+                                    <p>
+                                        Fulife Est Une Agence Web Et Digitale Établie Au Cameroun. Nous Offrons Des Services De Création De Sites Internet Professionnels, D'e-Commerce, Élaborons Des Stratégies Marketing Digitales, Développons Des Applications Sur Mesure Et Intégrons Des Solutions Digitales Pour Nos Clients.
+                                    </p>
+                                    <div class="menu d-xl-block d-none">
+                                         <a class="link" href="" style="color:black;">Découvrir</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-md-4 p-xl-5 my-2">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-9 col-lg-8 col-md-10 ">
+                            <div class="reveal-t2 card box-ab box-ab2 d-flex flex-column justify-content-around  p-2">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="{% static 'public/ellipse-19@2x.png' %}" alt="">
+                                    </div>
+                                    <h5 class="my-3">Site Vitrine</h5>
+                                    <p>
+                                        Fulife Est Une Agence Web Et Digitale Établie Au Cameroun. Nous Offrons Des Services De Création De Sites Internet Professionnels, D'e-Commerce, Élaborons Des Stratégies Marketing Digitales, Développons Des Applications Sur Mesure Et Intégrons Des Solutions Digitales Pour Nos Clients.
+                                    </p>
+                                    <div class="menu d-xl-block d-none">
+                                         <a class="link" href="" style="color:black;">Découvrir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-md-4 p-xl-5 my-2">
+                    <div class="row justify-content-center">
+                        <div class="col-xl-9 col-lg-8 col-md-10 ">
+                            <div class="reveal-t3 card box-ab box-ab2 d-flex flex-column justify-content-around  p-2">
+                                <div class="card-body">
+                                    <div class="d-flex justify-content-center">
+                                        <img src="{% static 'public/ellipse-19@2x.png' %}" alt="">
+                                    </div>
+                                    <h5 class="my-3">Site Wordpress</h5>
+                                    <p>
+                                        Fulife Est Une Agence Web Et Digitale Établie Au Cameroun. Nous Offrons Des Services De Création De Sites Internet Professionnels, D'e-Commerce, Élaborons Des Stratégies Marketing Digitales, Développons Des Applications Sur Mesure Et Intégrons Des Solutions Digitales Pour Nos Clients.
+                                    </p>
+                                    <div class="menu d-xl-block d-none">
+                                         <a class="link" href="" style="color:black;">Découvrir</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="">
+        <div class="container">
+            <div class="d-flex justify-content-center">
+                <img width="290px" src="{% static 'public/ellipse-21@2x.png' %}" alt="">
+            </div>
+            <h1 class="my-4 text-center px-2 px-md-5">
+                Un site internet ou une application clé en main référencé parmi les meilleurs résultats Google
+            </h1>
+
+            <img class="my-5" style="width: 100%;" src="{% static 'public/rectangle-20@2x.png' %}" alt="">
+        </div>
+    </section>
+
+    <section style="margin: 100px 0;">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                Pourquoi opter pour la Création d'un site web aupres de notre Agence Web ?
+            </h2>
+
+            <h4 class="text-center">
+                À l’ère de l’internet, votre site web est le bureau virtuel de votre public dans le monde entier. Un Site Seb attrayant est l’épine dorsale de toute entreprise prospère. Un site Web qui offre une bonne expérience utilisateur aura toujours un avantage concurrentiel et convaincra les utilisateurs d’acheter des produits et des services. La conception d´un site web qui offre une bonne expérience utilisateur est notre USP car nous comprenons qu’un site Web est désormais considéré comme indicateur de la crédibilité de toute entreprise.
+            </h4>
+        </div>
+    </section>
+
+    <section class="pre-ft mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="{% static 'public/ellipse-22@2x.png' %}" alt=""></div>
+                            <h3  class="mb-4">Présente ton activité</h3>
+                            <p>Petite ou grande galaxie, expose ton univers, ton histoire et tes qualifications au grand public tout en démontrant ton savoir-faire</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="{% static 'public/ellipse-23@2x.png' %}" alt=""></div>
+                            <h3 class="mb-4">Valorise tes prestations</h3>
+                            <p>Tu possèdes une expertise hors pair : mets-la en lumière ! Sois fier de tes compétences et mets en avant tes services, tes tarifs et tes zones d’intervention sur le web.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="d-flex justify-content-center">
+                                <img src="{% static 'public/ellipse-24@2x.png' %}" alt=""></div>
+                            <h3 class="mb-4" >Sois joignable facilement</h3>
+                            <p>Tes clients ont besoin de toi ? Choisis quand et comment tu souhaites être contacté. Coordonnées téléphoniques, horaires d’ouverture et formulaire de contact bien à jour pour faciliter ton activité.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="footer mt-5" style="background-color: #b1ecf5!important;padding: 0;margin: 0;">
+
+        <div class="container" style="z-index: 2;">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <h2 class="reveal text-center mb-4 text-light">
+                        A propos de nous
+                    </h2>
+                    <h5>
+                        Fulife Consulting Sarl est une société de conseil et d’ingenieire informatique. Notre approche est d’être plus proche de nos clients, leur apporter toute notre expertise, notre savoir , notre savoir faire et notre savoir être pour répondre aux besoins de ces dernniers.
+                    </h5>
+                    <div class="d-flex justify-content-center" style="width: 100%;">
+                        <a href="{% url 'acceuil' %}">
+                        <img src="{% static 'public/ellipse-11@2x.png' %}" alt="logo">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <h2 class="text-center text-light mb-4">
+                        Services
+                    </h2>
+
+                    <div>
+                        <a href="{% url 'dev-web-mobile' %}" class="link-f">Developpement Web et Mobile</a>
+                        <a href="{% url 'reseau&administrtion' %}" class="link-f">Reseau Informatique</a>
+                        <a href="" class="link-f">Administration systeme</a>
+                        <a href="" class="link-f">Hebergement Web</a>
+                        <a href="" class="link-f">Marketing Digitale</a>
+                        <a href="" class="link-f">Conseils et formation</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <h3 class="text-center mb-4">
+
+                    </h3>
+                    <p style="font-size: 1.3rem;">Addresse: Rue Bebey Elame, Akwa. Douala</p>
+                    <p style="font-size: 1.3rem;">Phone: (+237) 676 69 59 77 / 694 00 36 07</p>
+                    <p style="font-size: 1.3rem;">Email: info@fulife-consulting.cm</p>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-wrap logo-ft">
+                            <img src="{% static 'public/ellipse-13@2x.png' %}" alt="twitter">
+                            <img src="{% static 'public/ellipse-14@2x.png' %}" alt="instagram">
+                            <img src="{% static 'public/ellipse-15@2x.png' %}" alt="youtube">
+                            <img src="{% static 'public/ellipse-16@2x.png' %}" alt="link">
+                            <img src="{% static 'public/ellipse-17@2x.png' %}" alt="instagram">
+                            <img src="{% static 'public/ellipse-18@2x.png' %}" alt="chat">
+
+
+                         <!--
+                            <img src="./assets/image/ellipse-12@2x.png" alt="">
+                            <img src="./assets/image/ellipse-13@2x.png" alt="">
+                            <img src="./assets/image/ellipse-14@2x.png" alt="">
+                            <img src="./assets/image/ellipse-15@2x.png" alt="">
+                            <img src="./assets/image/ellipse-16@2x.png" alt="">
+                            <img src="./assets/image/ellipse-17@2x.png" alt="">
+                            <img src="./assets/image/ellipse-18@2x.png" alt="">
+                            -->
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="py-3">
+        <div class="container text-center">
+            Copyright © Fulife Consulting Sarl 2020 - All Right Reserved. Designed and Developed by Fulife Consulting Sarl
+        </div>
+    </section>
+
+    <!-- menu responsive -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Menus</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="phone-cont mt-5">
+                <a class="link-men" href="">Accueil</a>
+                <a class="link-men" href="">A propos</a>
+                <a class="link-men" href="">Service</a>
+                <a class="link-men" href="">Realisation</a>
+                <a class="link-men" href="">Contact</a>
+            </div>
+
+
+        </div>
+    </div>
+   <!-- script -->
+
+      <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="{% static 'bootstrap/js/reveal.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstap.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/scrollreveal.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/reveal-custom.js' %}"></script>
+
+
+
+   <!--
+   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+   <script src="./assets/bootstrap/js/scrollreveal.min.js"></script>
+   <script src="./assets/bootstrap/js/reveal-custom.js"></script>
+   <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+   <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+   -->
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,258 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For Infographe</title>
+    <link rel="stylesheet" href="{% static 'css/css-acc.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/css-part1.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/tarif_app_w_m.css' %}"/>
+    <link rel="stylesheet" href="{% static 'css/css_inscription.css' %}">
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.css' %}"/>
+    <link rel="stylesheet" href="{% static 'bootstrap/css/bootstrap.min.css' %}"/>
+
+
+    <!--
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="./assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css-acc.css">
+    <link rel="stylesheet" href="./assets/tarif_app_w_m.css">
+    <link rel="stylesheet" href="assets/css_inscription.css">
+    <link rel="stylesheet" href="./assets/css-part.css">
+    -->
+
+    <style>
+        .sticky-element {
+          position: sticky;
+          top: 50px; /* Hauteur de l'élément sticky par rapport au haut */
+          z-index: 100; /* Assure la superposition sur d'autres éléments */
+          background-color: white; /* Style d'arrière-plan */
+          padding: 10px; /* Espace intérieur pour le contenu */
+        }
+      </style>
+
+</head>
+<body class="cont_app_w_m">
+
+    <section class="pre-h d-lg-flex d-none justify-content-between p-2 ">
+        <div class="d-flex">
+            <div style="margin-right: 10px;"><img src="{% static 'public/ellipse-80@2x.png' %}" alt="tel">237 695607089</div>
+            <div style="margin-right: 10px;"><img class="m-r-1" src="{% static 'public/ellipse-81@2x.png' %}" alt="mail"> info@fulife-consulting.cm</div>
+            <div style="margin-right: 10px;"><img class="m-r-1" src="{% static 'public/ellipse-82@2x.png' %}" alt=""> Ouverture : Lun-Sam : 8h30-19h30</div>
+        </div>
+        <div class="d-flex">
+            <img class="m-1" src="{% static 'public/ellipse-12@2x.png' %}" alt="facebook">
+            <img class="m-1" src="{% static 'public/ellipse-13@2x.png' %}" alt="twitter">
+            <img class="m-1" src="{% static 'public/ellipse-14@2x.png' %}" alt="instagram">
+            <img class="m-1" src="{% static 'public/ellipse-15@2x.png' %}" alt="youtube">
+            <img  class="m-1" src="{% static 'public/ellipse-16@2x.png' %}" alt="linkln">
+            <img class="m-1" src="{% static 'public/ellipse-17@2x.png' %}" alt="whatsapp">
+            <img class="m-1" src="{% static 'public/ellipse-18@2x.png' %}" alt="chat">
+        </div>
+    </section>
+
+    <section class="d-block " style="position: relative;">
+        <div class="h-top2 container">
+            <div class=" head row">
+                <div class="col-5 head-l">
+                    <a href="{% url 'acceuil' %}">
+                    <img src="{% static 'public/ellipse-11@2x.png' %}" class="img-fluid rounded-top" alt="logo">
+                    </a>
+                </div>
+                <div class="col-7 head-r d-flex justify-content-between align-items-center ">
+                    <div class="d-xl-none" ></div>
+                    <button class="btn btn-primary d-xl-none ml-auto" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Menus</button>
+                    <div class="menu d-xl-block d-none">
+                        <a class="link" href="{% url 'acceuil' %}">Accueil</a>
+                        <a class="link" href="{% url 'a-propos' %}">A propos</a>
+                        <a class="link" href="">Service</a>
+                        <a class="link" href="{% url 'realisation' %}">Realisation</a>
+                        <a class="link" href="{% url 'contact' %}">Contact</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section>
+        <div class="container m-5 bg-primary-subtle p-5">
+            <div class="d-flex mb-3 ">
+                <img class="me-3" style="width: 100px;" src="{% static 'public/ellipse-47@2x.png' %}" alt="">
+                <div>
+                    <h2>Formateur <br> Fulife Consulting</h2>
+                </div>
+            </div>
+
+            <h3>Formation Développement Mobile avec <br> Fultter</h3>
+            <p class="display-6">3 mois</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <h2 class="mb-4">
+                        La Formation Infographe/Product Design Fulife Consulting
+                    </h2>
+
+                    <h4 class="mb-5">
+                        Si vous aspirez à progresser dans le domaine de la conception graphique, Fulife met à votre disposition une formation élaborée par des experts du secteur, vous permettant d'acquérir toutes les compétences requises pour votre future profession. De la création de logos aux affiches et aux emballages, notre programme de formation en design graphique à Douala vous préparera à devenir un professionnel de la communication visuelle, capable de satisfaire toutes les exigences de votre clientèle
+                    </h4>
+                     <h2 class="my-4">La formation en Infographie</h2>
+                     <h4 class="mb-5">
+                        Fulife Consulting offre une formation visant à former des professionnels en design graphique. Si vous êtes passionné par ce domaine et souhaitez acquérir des compétences grâce aux logiciels graphiques tels que Photoshop et Illustrator, cette formation est faite pour vous. Vous serez en mesure de créer des supports de qualité tels que des logos, des chartes graphiques, des flyers, des cartes de visite, des bannières, des panneaux, des magazines, des journaux et des calendriers. Cette formation vous permettra de travailler comme un véritable artiste grâce aux logiciels graphiques.
+
+
+                     </h4>
+                     <h2 class="my-4">Quelles sont les tâches de l´infographe</h2>
+                     <h4 class="mb-5">
+                        <ul>
+                            <li> Comprendre le code couleur dans la création graphique</li>
+                            <li>Assimiler la notion de charte graphique</li>
+                            <li> Maîtriser l’écosystème du logiciel et maîtriser l’interface de Photoshop – Illustrator</li>
+                            <li> Prendre en main les outils Photoshop et les appliquer</li>
+                            <li> Acquérir une vision et une approche de designer graphique</li>
+                            <li>Structurer et équilibrer des supports de communication</li>
+                            <li> Créer des supports de communication de qualité</li>
+                            <li> Faire du logiciel Photoshop – Illustrator un outil majeur de gestion efficace de sa communication
+                            </li>
+                            <li> Acquérir une méthode de travail</li>
+                            <li>Maîtriser les techniques avancées des logiciels</li>
+                            <li> Manipuler des blocs de texte (grouper, aligner, incliner)</li>
+                            <li>
+                                Paramétrer les blocs d’images et de textes</li>
+                            <li>Habiller graphiquement votre publication</li>
+                        </ul>
+
+
+                     </h4>
+
+                     <h2 class="my-4">CONSTITUTION DU DOSSIER D´ADMISSION</h2>
+                     <h4 class="mb-5">
+                        <ul>
+                            <li>Photocopie du Dernier diplome</li>
+                            <li>
+                                Photocopie de la CNI</li>
+                            <li>formulaire d´inscription rempli</li>
+                        </ul>
+                     </h4>
+
+
+                </div>
+                <div class="col-lg-3 position-relative">
+                    <div class="sticky-element p-3 bg-primary-subtle">
+                        <img width="100%" src="{% static 'public/rectangle-62@2x.png' %}" alt="">
+                        <div class="my-3 d-flex justify-content-center"> <button class="btn btn-primary btn-lg">S'inscrire</button></div>
+                        <div class="d-flex my-3 ">
+                            <img width="50" class="me-2" src="{% static 'public/ellipse-48@2x.png' %}" alt=""><img class="me-2" src="{% static 'public/star-5.svg' %}" alt=""><img class="me-2" src="{% static 'public/star-5.svg' %}" alt=""><img class="me-2" src="{% static 'public/star-5.svg' %}" alt=""><img class="me-2" src="{% static 'public/star-5.svg' %}" alt=""><img class="me-2" src="{% static 'public/star-5.svg' %}" alt="">
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer mt-5" style="background-color: #b1ecf5!important;padding: 0;margin: 0;">
+
+        <div class="container" style="z-index: 2;">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <h2 class="reveal text-center mb-4 text-light">
+                        A propos de nous
+                    </h2>
+                    <h5>
+                        Fulife Consulting Sarl est une société de conseil et d’ingenieire informatique. Notre approche est d’être plus proche de nos clients, leur apporter toute notre expertise, notre savoir , notre savoir faire et notre savoir être pour répondre aux besoins de ces dernniers.
+                    </h5>
+                        <a href="{% url 'acceuil' %}">
+                        <img src="{% static 'public/ellipse-11@2x.png' %}" alt="logo">
+                        </a>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <h2 class="text-center text-light mb-4">
+                        Services
+                    </h2>
+
+                    <div>
+                        <a href="{% url 'dev-web-mobile' %}" class="link-f">Developpement Web et Mobile</a>
+                        <a href="{% url 'reseau&administrtion' %}" class="link-f">Reseau Informatique</a>
+                        <a href="" class="link-f">Administration systeme</a>
+                        <a href="" class="link-f">Hebergement Web</a>
+                        <a href="" class="link-f">Marketing Digitale</a>
+                        <a href="" class="link-f">Conseils et formation</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 mt-4">
+                    <h3 class="text-center mb-4">
+
+                    </h3>
+                    <p style="font-size: 1.3rem;">Addresse: Rue Bebey Elame, Akwa. Douala</p>
+                    <p style="font-size: 1.3rem;">Phone: (+237) 676 69 59 77 / 694 00 36 07</p>
+                    <p style="font-size: 1.3rem;">Email: info@fulife-consulting.cm</p>
+                    <div class="d-flex justify-content-center">
+                        <div class="d-flex flex-wrap logo-ft">
+                            <img src="{% static 'public/ellipse-12@2x.png' %}" alt="facebook">
+                            <img src="{% static 'public/ellipse-13@2x.png' %}" alt="twitter">
+                            <img src="{% static 'public/ellipse-14@2x.png' %}" alt="instagram">
+                            <img src="{% static 'public/ellipse-15@2x.png' %}" alt="youtube">
+                            <img src="{% static 'public/ellipse-16@2x.png' %}" alt="link">
+                            <img src="{% static 'public/ellipse-17@2x.png' %}" alt="instagram">
+                            <img src="{% static 'public/ellipse-18@2x.png' %}" alt="chat">
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="py-3">
+        <div class="container text-center">
+            Copyright © Fulife Consulting Sarl 2020 - All Right Reserved. Designed and Developed by Fulife Consulting Sarl
+        </div>
+    </section>
+
+    <!-- menu responsive -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel">Menus</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+
+            <div class="phone-cont mt-5">
+                <a class="link-men" href="">Accueil</a>
+                <a class="link-men" href="">A propos</a>
+                <a class="link-men" href="">Service</a>
+                <a class="link-men" href="">Realisation</a>
+                <a class="link-men" href="">Contact</a>
+            </div>
+
+
+        </div>
+    </div>
+   <!-- script -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="{% static 'bootstrap/js/reveal.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstap.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/scrollreveal.min.js' %}"></script>
+    <script src="{% static 'bootstrap/js/reveal-custom.js' %}"></script>
+
+
+    <!--
+   <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+
+   <script src="./assets/bootstrap/js/scrollreveal.min.js"></script>
+   <script src="./assets/bootstrap/js/reveal-custom.js"></script>
+   <script src="./assets/bootstrap/js/bootstrap.min.js"></script>
+   <script src="./assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+   -->
+    
+</body>
+</html>

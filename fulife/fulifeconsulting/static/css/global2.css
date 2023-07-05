@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-montserrat: Montserrat;
+  --font-rubik: Rubik;
+  --font-inter: Inter;
+  --font-jost: Jost;
+  --font-akshar: Akshar;
+
+  /* font sizes */
+  --font-size-31xl: 50px;
+  --font-size-16xl: 35px;
+  --font-size-21xl: 40px;
+  --font-size-41xl: 60px;
+  --font-size-9xl: 28px;
+  --font-size-6xl: 25px;
+  --font-size-3xl: 22px;
+  --font-size-xl: 20px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-gray-100: rgba(0, 0, 0, 0.7);
+}

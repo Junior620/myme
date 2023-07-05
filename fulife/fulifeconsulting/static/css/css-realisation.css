@@ -1,0 +1,19 @@
+.section .position-relative a{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    background-color: rgb(40, 185, 252);
+    padding: 10px 15px;
+    border-radius: 7px;
+    transition: .2s ease;
+
+}
+
+.section .position-relative a:hover{
+    transform: scale(1.1);
+}
+.section img{
+    width:100%;
+}

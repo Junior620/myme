@@ -1,0 +1,22 @@
+.tarif_home{
+    background: url("/static/public/rectangle-64@2x.png");
+    background-position: center;
+    background-size: cover;
+}
+.tarif_home .card{
+    background-color: rgba(92, 202, 237, 0.6);
+}
+
+.tarif_home .card-header{
+    background: linear-gradient(180deg, rgba(226, 17, 17, 0), #cdb0b0);
+    padding: 50px 25px;
+    border-radius:10px;
+    box-shadow:1px 1px 7px 1px #000000; 
+}
+
+.rnf{
+    background: url("/static/public/rectangle-69@2x.png");
+    background-size: cover;
+    background-position:center;
+
+}
